@@ -89,7 +89,26 @@
     }
 
     .main {
-        width: 80%;
+        width: 90%;
         min-height: 250px;
+    }
+}
+
+@media (max-width: 380px){
+    .tittle {
+        font-size: 40px;
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .main {
+        width: 90%;
+        min-height: 250px;
+    }
+
+    .main span {
+        font-size: 14px;
     }
 }
