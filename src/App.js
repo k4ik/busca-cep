@@ -32,7 +32,7 @@ function App() {
       <div className="container-input">
         <input 
         type="text"
-        placeholder="Digite seu CEP"
+        placeholder="Informe o CEP"
         value={input}
         onChange={(event) => setInput(event.target.value)}
         />
